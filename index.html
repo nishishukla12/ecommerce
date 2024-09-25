@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment</title>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Slick CSS -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css"
+    integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-white position-fixed w-100 shadow top-0">
+      <div class="container d-flex justify-content-between align-items-center px-2">
+        <div class="navbar-left d-flex">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon text-black">
+              <i class="fa-solid fa-bars"></i>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#products">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#Services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#contact--us">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <a class="navbar-logo mx-auto" href="#">
+          <img src="images/new_logo.png" alt="Logo" class="logo-img w-100">
+        </a>
+        <div class="social-icons d-flex align-items-center">
+          <ul class="list-unstyled d-flex align-items-center gap-3 mb-0">
+            <li><a href="#" class="text-black"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            <li><a href="#"><i class="fa-regular fa-user"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+
+    <section class="banner_section position-relative">
+      <img src="images/banner.webp" alt="banner" class="w-100">
+      <div class="banner_content position-absolute p-3 p-5 top-50 start-50 translate-middle rounded-3 text-center w-75">
+        <h2 class="fw-bold text-white display-5 text-uppercase">India's Finest Online Furniture Brand
+        </h2>
+        <p class="fw-normal fs-8 text-white text-center"> The L-shaped sectional sofa, draped in soft gray tones, offers
+          both comfort and elegance, making it the
+          centerpiece of this minimalist design. Complementing the sofa, a glass coffee table with chrome legs
+          rests on a geometric-patterned area rug, adding a subtle flair of modern artistry.</p>
+        <button type="button" class="custom_cta">
+          <span>Explore More</span>
+        </button>
+      </div>
+    </section>
+    <section class="slider_section">
+      <div class="container">
+        <div class="slider_content px-2 md:px-5">
+          <h2 class="fs-1 text-center fw-bold">India's Finest Online Furniture Brand </h2>
+          <p class="text-center">Buy Furniture Online from our extensive collection of wooden furniture units to give
+            your
+            home an elegant touch at affordable prices. We offer a wide range of wooden furniture online to suit your
+            home
+            interiors. You can either buy furniture carved
+            out of solid wood material from our offerings or get it customized to match your requirements. Buy furniture
+            online and find the features, functionality, dimensions of the products, all with great ease.</p>
+
+        </div>
+        <div class="row  slide_items">
+          <div class="col">
+            <div class="p-3 shadow border border-light rounded-2 cust_col">
+              <img src="images/img1.webp" alt="" class="w-100" class="w-100 rounded-2">
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 shadow border border-light rounded-2 cust_col">
+              <img src="images/img2.webp" alt="" class="w-100 rounded-2">
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 shadow border border-light rounded-2 cust_col">
+              <img src="images/img3.webp" alt="" class="w-100 rounded-2">
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 shadow border border-light rounded-2 cust_col">
+              <img src="images/img4.webp" alt="" class="w-100 rounded-2">
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 shadow border border-light rounded-2 cust_col">
+              <img src="images/img5.webp" alt="" class="w-100 rounded-2">
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 shadow border border-light rounded-2 cust_col">
+              <img src="images/img6.webp" alt="" class="w-100 rounded-2">
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 shadow border border-light rounded-2 cust_col">
+              <img src="images/img7.webp" alt="" class="w-100 rounded-2">
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 shadow border border-light rounded-2 cust_col">
+              <img src="images/img8.webp" alt="" class="w-100 rounded-2">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section class="categories_section container" id="products">
+      <h2 class="text-dark text-center fs-1 fw-bold">Shop Top Categories</h2>
+      <div class="row  mt-3 w-100 gx-3 gy-3">
+        <div class="col-12 col-md-6">
+          <div
+            class="cat--content d-flex align-item-center p-3 border border-light  gx-5 justify-content-center rounded-2 card--cont-bg1">
+            <div class="cat_content w-100 py-5 px-3 w-xxl-50">
+              <h3 class="fs-3 fw-bold">Seven Horses Running</h3>
+              <p class="fs-6 fw-normal">Decorate your home with DecorsMantra's artful picture photo prints on canvas.
+                Infuse a
+                dramatic touch with loud, energetic colors or subtly complement the room with delicate tints and
+                neutrals.
+              </p>
+              <button class="custom_cta mt-3"><span>
+                  Shop Now
+                </span></button>
+            </div>
+            <div class="img--wrapper w-100 w-xxl-50">
+              <img src="images/cat_img1.webp" alt="" class="w-100 rounded-2 d-block">
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div
+            class="cat--content d-flex align-item-center p-3 border border-light  gx-5 justify-content-center rounded-2 card--cont-bg2">
+            <div class="cat_content w-100 w-xxl-50 py-5 px-3">
+              <h3 class="fs-3 fw-bold">Classic Lord Radha Krishna</h3>
+              <p class="fs-6 fw-normal">Decorate your home with DecorsMantra's artful picture photo prints on canvas.
+                Infuse a
+                dramatic touch with loud, energetic colors or subtly complement the room with delicate tints and
+                neutrals.
+              </p>
+              <button class="custom_cta mt-3"><span>
+                  Shop Now
+                </span></button>
+            </div>
+            <div class="img--wrapper w-100 w-xxl-50">
+              <img src="images/cat_img2.webp" alt="" class="w-100 rounded-2 d-block">
+            </div>
+          </div>
+
+        </div>
+        <div class="col-12 col-md-6">
+          <div
+            class="cat--content d-flex align-item-center p-3 border border-light  gx-5 justify-content-center rounded-2 card--cont-bg3">
+            <div class="img--wrapper w-100 w-xxl-50">
+              <img src="images/cat_img3.webp" alt="" class="w-100 rounded-2 d-block">
+            </div>
+            <div class="cat_content w-100 w-xxl-50 py-5 px-3">
+              <h3 class="fs-3 fw-bold">Radha Krishna Rasleela</h3>
+              <p class="fs-6 fw-normal">Decorate your home with DecorsMantra's artful picture photo prints on canvas.
+                Infuse a
+                dramatic touch with loud, energetic colors or subtly complement the room with delicate tints and
+                neutrals.
+              </p>
+              <button class="custom_cta mt-3"><span>
+                  Shop Now
+                </span></button>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-12 col-md-6">
+          <div
+            class="cat--content d-flex align-item-center p-3 border border-light gx-5  justify-content-center rounded-2  card--cont-bg4">
+            <div class="img--wrapper w-100 w-xxl-50 rounded-2">
+              <img src="images/cat_img4.webp" alt="" class="w-100 d-block rounded-2">
+            </div>
+            <div class="cat_content w-100 w-xxl-50 py-5 px-3">
+              <h3 class="fs-3 fw-bold">Beautiful Running Horses</h3>
+              <p class="fs-6 fw-normal">Decorate your home with DecorsMantra's artful picture photo prints on canvas.
+                Infuse a
+                dramatic touch with loud, energetic colors or subtly complement the room with delicate tints and
+                neutrals.
+              </p>
+              <button class="custom_cta mt-3"><span>
+                  Shop Now
+                </span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="Gift_banner--section w-100 container">
+      <img src="images/banner.jpg" alt="" class="d-block w-100 m-auto rounded-2 h-100">
+    </section>
+    <section class="best_seller--sec container">
+      <div class="best-seller--content text-center">
+        <h2 class="text-dark text-center fs-1 fw-bold">Best-Sellers of the Season </h2>
+        <div class="row gx-3 gy-3 categories_slider mt-3">
+          <div class="col">
+            <div class="catgeroy_slider-content bg-white border border-light shadow-sm rounded-2">
+              <div class="position-relative img_container">
+                <img src="images/best-sell_img1.jpg" alt="" class="w-100">
+                <button type="button" class="custom_cta position-absolute top-50 start-50 translate-middle mt-0">
+                  <div class="d-flex align-item-center justify-content-center gx-3">
+                    <img src="images/cart.svg" alt="">
+                    Add To Cart
+                  </div>
+                </button>
+              </div>
+              <div class="content px-2 py-3 text-start">
+                <p class="fs-5 text-dark fw-bold mb-2 lh-1">Walken Bed With Storage</p>
+                <p class="fw-normal fs-6 mb-0">King Size, Honey Finish</p>
+                <span class="d-flex align-item-center">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/half_star.svg" alt="">
+                  <p class="fs-6 mb-0">4.5</p>
+                </span>
+                <p class="mb-0 fs-6">MRP:<b> Rs 43,898</b> <del class="dis-price"> Rs 71,999</del></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="catgeroy_slider-content bg-white border border-light shadow-sm rounded-2">
+              <div class="position-relative img_container">
+                <img src="images/best-sell_img2.jpg" alt="" class="w-100">
+                <button type="button" class="custom_cta position-absolute top-50 start-50 translate-middle mt-0">
+                  <div class="d-flex align-item-center justify-content-center gx-3">
+                    <img src="images/cart.svg" alt="">
+                    Add To Cart
+                  </div>
+                </button>
+              </div>
+              <div class="content px-2 py-3 text-start">
+                <p class="fs-5 text-dark fw-bold mb-2 lh-1">Mcbeth Storage 6 Seater Dining Table Set</p>
+                <p class="fw-normal fs-6 mb-0">Honey Finish</p>
+                <span class="d-flex align-item-center">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/half_star.svg" alt="">
+                  <p class="fs-6 mb-0">4.6</p>
+                </span>
+                <p class="mb-0 fs-6">MRP: <b>Rs 46,489</b><del class="dis-price"> Rs 69,999</del> </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="catgeroy_slider-content bg-white border border-light shadow-sm rounded-2">
+              <div class="position-relative img_container">
+                <img src="images/best-sell_img3.webp" alt="" class="w-100">
+                <button type="button" class="custom_cta position-absolute top-50 start-50 translate-middle mt-0">
+                  <div class="d-flex align-item-center justify-content-center gx-3">
+                    <img src="images/cart.svg" alt="">
+                    Add To Cart
+                  </div>
+                </button>
+              </div>
+              <div class="content px-2 py-3 text-start">
+                <p class="fs-5 text-dark fw-bold mb-2 lh-1">Feltro Bed Cum Sofa</p>
+                <p class="fw-normal fs-6 mb-0">King Size</p>
+                <span class="d-flex align-item-center">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/half_star.svg" alt="">
+                  <p class="fs-6 mb-0">4.6</p>
+                </span>
+                <p class="mb-0 fs-6">MRP: <b>Rs 46,489</b><del class="dis-price"> Rs 69,999</del> </p>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="catgeroy_slider-content bg-white border border-light shadow-sm rounded-2">
+              <div class="position-relative img_container">
+                <img src="images/best-sell_img3.webp" alt="" class="w-100">
+                <button type="button" class="custom_cta position-absolute top-50 start-50 translate-middle mt-0">
+                  <div class="d-flex align-item-center justify-content-center gx-3">
+                    <img src="images/cart.svg" alt="">
+                    Add To Cart
+                  </div>
+                </button>
+              </div>
+              <div class="content px-2 py-3 text-start">
+                <p class="fs-5 text-dark fw-bold mb-2 lh-1">Feltro Bed Cum Sofa</p>
+                <p class="fw-normal fs-6 mb-0">King Size</p>
+                <span class="d-flex align-item-center">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/half_star.svg" alt="">
+                  <p class="fs-6 mb-0">4.6</p>
+                </span>
+                <p class="mb-0 fs-6">MRP: <b>Rs 46,489</b><del class="dis-price"> Rs 69,999</del> </p>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="catgeroy_slider-content bg-white border border-light shadow-sm rounded-2">
+              <div class="position-relative img_container">
+                <img src="images/best-sell_img1.jpg" alt="" class="w-100">
+                <button type="button" class="custom_cta position-absolute top-50 start-50 translate-middle mt-0">
+                  <div class="d-flex align-item-center justify-content-center gx-3">
+                    <img src="images/cart.svg" alt="">
+                    Add To Cart
+                  </div>
+                </button>
+              </div>
+              <div class="content px-2 py-3 text-start">
+                <p class="fs-5 text-dark fw-bold mb-2 lh-1">Walken Bed With Storage</p>
+                <p class="fw-normal fs-6 mb-0">King Size, Honey Finish</p>
+                <span class="d-flex align-item-center">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/half_star.svg" alt="">
+                  <p class="fs-6 mb-0">4.5</p>
+                </span>
+                <p class="mb-0 fs-6">MRP:<b> Rs 43,898</b> <del class="dis-price"> Rs 71,999</del></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="catgeroy_slider-content bg-white border border-light shadow-sm rounded-2">
+              <div class="position-relative img_container">
+                <img src="images/best-sell_img2.jpg" alt="" class="w-100">
+                <button type="button" class="custom_cta position-absolute top-50 start-50 translate-middle mt-0">
+                  <div class="d-flex align-item-center justify-content-center gx-3">
+                    <img src="images/cart.svg" alt="">
+                    Add To Cart
+                  </div>
+                </button>
+              </div>
+              <div class="content px-2 py-3 text-start">
+                <p class="fs-5 text-dark fw-bold mb-2 lh-1">Mcbeth Storage 6 Seater Dining Table Set</p>
+                <p class="fw-normal fs-6 mb-0">Honey Finish</p>
+                <span class="d-flex align-item-center">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/half_star.svg" alt="">
+                  <p class="fs-6 mb-0">4.6</p>
+                </span>
+                <p class="mb-0 fs-6">MRP: <b>Rs 46,489</b><del class="dis-price"> Rs 69,999</del> </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="catgeroy_slider-content bg-white border border-light shadow-sm rounded-2">
+              <div class="position-relative img_container">
+                <img src="images/best-sell_img3.webp" alt="" class="w-100">
+                <button type="button" class="custom_cta position-absolute top-50 start-50 translate-middle mt-0">
+                  <div class="d-flex align-item-center justify-content-center gx-3">
+                    <img src="images/cart.svg" alt="">
+                    Add To Cart
+                  </div>
+                </button>
+              </div>
+              <div class="content px-2 py-3 text-start">
+                <p class="fs-5 text-dark fw-bold mb-2 lh-1">Feltro Bed Cum Sofa</p>
+                <p class="fw-normal fs-6 mb-0">King Size</p>
+                <span class="d-flex align-item-center">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/half_star.svg" alt="">
+                  <p class="fs-6 mb-0">4.6</p>
+                </span>
+                <p class="mb-0 fs-6">MRP: <b>Rs 46,489</b><del class="dis-price"> Rs 69,999</del> </p>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="catgeroy_slider-content bg-white border border-light shadow-sm rounded-2">
+              <div class="position-relative img_container">
+                <img src="images/best-sell_img3.webp" alt="" class="w-100">
+                <button type="button" class="custom_cta position-absolute top-50 start-50 translate-middle mt-0">
+                  <div class="d-flex align-item-center justify-content-center gx-3">
+                    <img src="images/cart.svg" alt="">
+                    Add To Cart
+                  </div>
+                </button>
+              </div>
+              <div class="content px-2 py-3 text-start">
+                <p class="fs-5 text-dark fw-bold mb-2 lh-1">Feltro Bed Cum Sofa</p>
+                <p class="fw-normal fs-6 mb-0">King Size</p>
+                <span class="d-flex align-item-center">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/half_star.svg" alt="">
+                  <p class="fs-6 mb-0">4.6</p>
+                </span>
+                <p class="mb-0 fs-6">MRP: <b>Rs 46,489</b><del class="dis-price"> Rs 69,999</del> </p>
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      </div>
+      </div>
+    </section>
+    <section>
+      <div id="Services" class="container-fluid">
+        <h2 class="text-dark text-center fs-1 fw-bold pb-3">Services
+        </h2>
+        <ul class="services row list-unstyled h-100 m-0 d-flex overflow-hidden w-100 mt-3 pb-5 vh-100">
+          <li role="button" class="col-md-12 col-lg d-flex align-items-stretch p-0 overflow-hidden position-relative"
+            style="background-image: url(images/category_img1.jpg);">
+            <h3 class="text-white fw-bold text-uppercase position-absolute start-50 top-50">Bedding</h3>
+            <div class="section-content align-self-end w-100 position-relative">
+              <div class="inner position-absolute d-grid w-100 p-3">
+                <div class="bio d-grid gap-3">
+                  <h2 class="text-uppercase fw-bold fs-1 text-white">Bedding</h2>
+                  <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem molestiae
+                    provident blanditiis, nisi dolores veritatis accusamus sit eum doloremque accusantium exercitationem
+                    deserunt officia
+                    laboriosam tempore aliquam reiciendis voluptatibus aperiam. Deleniti?</p>
+                  <a href="https://open.spotify.com/artist/205i7E8fNVfojowcQSfK9m?si=HidnJ9jEQ5aK-dKZEZWdLw"
+                    target="_blank" class="artist-profile-link md:hidden"><img src="images/new_logo.png" alt="logo"
+                      width="150" height="150" loading="lazy"></a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li role="button" class="col-md-12 col-lg d-flex align-items-stretch p-0 overflow-hidden position-relative"
+            style="background-image: url(images/category_img2.jpg);">
+            <h3 class="text-white fw-bold text-uppercase position-absolute start-50 top-50">Rugs</h3>
+            <div class="section-content align-self-end w-100 position-relative">
+              <div class="inner position-absolute d-grid w-100 p-3">
+                <div class="bio d-grid gap-3">
+                  <h2 class="text-uppercase fw-bold fs-1 text-white">Rugs</h2>
+                  <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem recusandae
+                    soluta
+                    exercitationem consectetur corrupti, deleniti ea atque ipsam quas assumenda
+                    nobis similique alias esse quibusdam officiis tempore eos earum at.</p>
+                  <a href="https://open.spotify.com/artist/205i7E8fNVfojowcQSfK9m?si=HidnJ9jEQ5aK-dKZEZWdLw"
+                    target="_blank" class="artist-profile-link md:hidden"><img src="images/new_logo.png" alt="Logo"
+                      width="150" height="150" loading="lazy"></a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li role="button"
+            class="active col-md-12 col-lg d-flex align-items-stretch p-0 overflow-hidden position-relative"
+            style="background-image: url(images/category_img3.jpg);">
+            <h3 class="text-white fw-bold text-uppercase position-absolute start-50 top-50">Curtains</h3>
+            <div class="section-content align-self-end w-100 position-relative">
+              <div class="inner position-absolute d-grid w-100 p-3">
+                <div class="bio d-grid gap-3">
+                  <h2 class="text-uppercase fw-bold fs-1 text-white">Curtains</h2>
+                  <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, ut non nulla
+                    vel
+                    facere voluptatem dignissimos inventore nam tenetur veniam soluta
+                    voluptate voluptates? Quis eaque illum deserunt hic reprehenderit consectetur!</p>
+                  <a href="https://open.spotify.com/artist/205i7E8fNVfojowcQSfK9m?si=HidnJ9jEQ5aK-dKZEZWdLw"
+                    target="_blank" class="artist-profile-link md:hidden"><img src="images/new_logo.png" alt="Logo"
+                      width="150" height="150" loading="lazy"></a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li role="button" class="col-md-12 col-lg d-flex align-items-stretch p-0 overflow-hidden position-relative"
+            style="background-image: url(images/category_img4.jpg);">
+            <h3 class="text-white fw-bold text-uppercase position-absolute start-50 top-50">Cushions</h3>
+            <div class="section-content align-self-end w-100 position-relative">
+              <div class="inner position-absolute d-grid w-100 p-3">
+                <div class="bio d-grid gap-3">
+                  <h2 class="text-uppercase fw-bold fs-1 text-white">Cushions</h2>
+                  <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut autem delectus qui
+                    quae culpa ducimus illum repudiandae soluta quisquam voluptate earum
+                    corporis recusandae neque possimus, aliquid iste, officiis non blanditiis.</p>
+                  <a href="https://open.spotify.com/artist/205i7E8fNVfojowcQSfK9m?si=HidnJ9jEQ5aK-dKZEZWdLw"
+                    target="_blank" class="artist-profile-link md:hidden"><img src="images/new_logo.png" alt="Logo"
+                      width="150" height="150" loading="lazy"></a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li role="button" class="col-md-12 col-lg d-flex align-items-stretch p-0 overflow-hidden position-relative"
+            style="background-image: url(images/category_img4.jpg);">
+            <h3 class="text-white fw-bold text-uppercase position-absolute start-50 top-50">Cushions</h3>
+            <div class="section-content align-self-end w-100 position-relative">
+              <div class="inner position-absolute d-grid w-100 p-3">
+                <div class="bio d-grid gap-3">
+                  <h2 class="text-uppercase fw-bold fs-1 text-white">Cushions</h2>
+                  <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut autem delectus qui
+                    quae culpa ducimus illum repudiandae soluta quisquam voluptate earum
+                    corporis recusandae neque possimus, aliquid iste, officiis non blanditiis.</p>
+                  <a href="https://open.spotify.com/artist/205i7E8fNVfojowcQSfK9m?si=HidnJ9jEQ5aK-dKZEZWdLw"
+                    target="_blank" class="artist-profile-link md:hidden"><img src="images/new_logo.png" alt="Logo"
+                      width="150" height="150" loading="lazy"></a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li role="button" class="col-md-12 col-lg d-flex align-items-stretch p-0 overflow-hidden position-relative"
+            style="background-image: url(images/category_img5.jpg);">
+            <h3 class="text-white fw-bold text-uppercase position-absolute start-50 top-50">Cushions</h3>
+            <div class="section-content align-self-end w-100 position-relative">
+              <div class="inner position-absolute d-grid w-100 p-3">
+                <div class="bio d-grid gap-3">
+                  <h2 class="text-uppercase fw-bold fs-1 text-white">Cushions</h2>
+                  <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut autem delectus qui
+                    quae culpa ducimus illum repudiandae soluta quisquam voluptate earum
+                    corporis recusandae neque possimus, aliquid iste, officiis non blanditiis.</p>
+                  <a href="https://open.spotify.com/artist/205i7E8fNVfojowcQSfK9m?si=HidnJ9jEQ5aK-dKZEZWdLw"
+                    target="_blank" class="artist-profile-link md:hidden"><img src="images/new_logo.png" alt="Logo"
+                      width="150" height="150" loading="lazy"></a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+    <section class="mt-5 contact--us_sec" id="contact--us">
+      <div class="container">
+        <div class="form-container shadow-lg p-4 d-flex align-item-center gx-3 gy-3 flex-column flex-lg-row">
+          <div class="col-12 col-md-6">
+            <img src="images/best-sell_img1.jpg" alt="" class="w-100 rounded-3">
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="form_wrap w-100 md:w-50 px-3 md:px-5 mt-3 md:mt-0">
+              <h2 class="text-center mb-4">Contact Us</h2>
+              <form>
+                <div class="form-group mb-3">
+                  <label for="name" class="form-label">Full Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Enter your full name">
+                </div>
+
+                <div class="form-group mb-3">
+                  <label for="email" class="form-label">Email Address</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                  <small class="form-text">We'll never share your email with anyone else.</small>
+                </div>
+
+                <div class="form-group mb-3">
+                  <label for="password" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="password" placeholder="Create a password">
+                </div>
+
+                <div class="form-group mb-4">
+                  <label for="confirm-password" class="form-label">Confirm Password</label>
+                  <input type="password" class="form-control" id="confirm-password" placeholder="Confirm your password">
+                </div>
+
+                <div class="d-flex justify-content-center m-auto">
+                  <button type="button" class="custom_cta mt-0">
+                    <span>Explore More</span>
+                  </button>
+                </div>
+
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <section class="faq-section py-5 bg-light">
+        <div class="container">
+          <div class="row justify-content-center mb-5">
+            <div class="col-lg-8 text-center">
+              <h2 class="display-5 fw-bold text-black mb-3">Frequently Asked Questions</h2>
+              <p class="lead text-muted">Find answers to some of the most commonly asked questions below. If you have
+                more
+                questions, feel free to reach out to us anytime!</p>
+            </div>
+          </div>
+          <div class="accordion" id="faqAccordion">
+            <div class="accordion-item mb-3 border-0 shadow-sm rounded">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed bg-white text-dark rounded" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
+                  aria-controls="collapseOne">
+                  <strong>What is an FAQ page?</strong>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                data-bs-parent="#faqAccordion">
+                <div class="accordion-body bg-white">
+                  An FAQ page is a list of commonly asked questions and answers about a specific product, service, or
+                  brand. It helps users find information quickly.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mb-3 border-0 shadow-sm rounded">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed bg-white text-dark rounded" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                  aria-controls="collapseTwo">
+                  <strong>Why should I have an FAQ page?</strong>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#faqAccordion">
+                <div class="accordion-body bg-white">
+                  Having an FAQ page improves user experience by providing answers to common questions, saving time for
+                  both customers and support teams.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mb-3 border-0 shadow-sm rounded">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed bg-white text-dark rounded" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                  aria-controls="collapseThree">
+                  <strong>How do I create an FAQ page?</strong>
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#faqAccordion">
+                <div class="accordion-body bg-white">
+                  You can create an FAQ page by compiling the most frequently asked questions and answers relevant to
+                  your
+                  audience, and organizing them in a way that's easy to navigate.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mb-3 border-0 shadow-sm rounded">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed bg-white text-dark rounded" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                  aria-controls="collapseFour">
+                  <strong>How often should I update my FAQ page?</strong>
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                data-bs-parent="#faqAccordion">
+                <div class="accordion-body bg-white">
+                  It’s important to regularly review and update your FAQ page to ensure that the information is accurate
+                  and up to date.
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="text-center mt-5">
+            <h5>Still have questions?</h5>
+            <button type="button" class="custom_cta mt-0">
+              <span>Contact Support</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+    </section>
+    <section class="instagram_sec">
+      <section id="instagram-section" class="py-5">
+        <div class="container text-center">
+          <h2 class="fw-bold text-black mb-5 text-center">Follow Us on Instagram</h2>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card shadow-sm instagram-video-card position-relative">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item w-100 d-block" src="https://www.youtube.com/embed/t3sp3kDnOvg"
+                    allowfullscreen style="height: 300px;"></iframe>
+                </div>
+                <div class="overlay position-absolute top-50 start-50 translate-middle">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#videoModal1">
+                    <img src="images/play.svg" class="play-icon" alt="Play Icon" style="width: 50px; height: 50px;">
+                  </a>
+                </div>
+              </div>
+              <div class="modal fade" id="videoModal1" tabindex="-1" aria-labelledby="videoModalLabel1"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-body p-0">
+                      <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item w-100 d-block"
+                          src="https://www.youtube.com/embed/t3sp3kDnOvg" allowfullscreen
+                          style="height: 500px;"></iframe>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm instagram-video-card position-relative">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item w-100 d-block" src="https://www.youtube.com/embed/t3sp3kDnOvg"
+                    allowfullscreen style="height: 300px;"></iframe>
+                </div>
+                <div class="overlay position-absolute top-50 start-50 translate-middle">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#videoModal2">
+                    <img src="images/play.svg" class="play-icon" alt="Play Icon" style="width: 50px; height: 50px;">
+                  </a>
+                </div>
+              </div>
+              <div class="modal fade" id="videoModal2" tabindex="-1" aria-labelledby="videoModalLabel2"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-body p-0">
+                      <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item d-block" src="https://www.youtube.com/embed/t3sp3kDnOvg"
+                          allowfullscreen style="height: 500px;"></iframe>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm instagram-video-card position-relative">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item w-100 d-block" src="https://www.youtube.com/embed/t3sp3kDnOvg"
+                    allowfullscreen style="height: 300px;"></iframe>
+                </div>
+                <div class="overlay position-absolute top-50 start-50 translate-middle">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#videoModal3">
+                    <img src="images/play.svg" class="play-icon" alt="Play Icon" style="width: 50px; height: 50px;">
+                  </a>
+                </div>
+              </div>
+              <div class="modal fade" id="videoModal3" tabindex="-1" aria-labelledby="videoModalLabel3"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-body p-0">
+                      <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item w-100 d-block"
+                          src="https://www.youtube.com/embed/t3sp3kDnOvg" allowfullscreen
+                          style="height: 500px;"></iframe>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </section>
+
+  </main>
+  <footer class="footer-section">
+    <div class="container">
+      <div class="footer-cta pt-5 pb-5">
+        <div class="row">
+          <div class="col-xl-4 col-md-4 mb-4">
+            <div class="single-cta">
+              <i class="fas fa-location"></i>
+              <div class="cta-text">
+                <h4>Find us</h4>
+                <span>200 Naubasta, Kanpur</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-4 mb-4">
+            <div class="single-cta">
+              <i class="fas fa-phone"></i>
+              <div class="cta-text">
+                <h4>Call us</h4>
+                <span>1234567892</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-4 mb-4">
+            <div class="single-cta">
+              <i class="far fa-envelope-open"></i>
+              <div class="cta-text">
+                <h4>Mail us</h4>
+                <span>mail@info.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-content pt-5 pb-5">
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 mb-5">
+            <div class="footer-widget">
+              <div class="footer-logo">
+                <a href="index.html"><img src="images/new_logo.png" class="img-fluid" alt="logo"></a>
+              </div>
+              <div class="footer-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                  et dolore magna aliqua.</p>
+              </div>
+              <div class="footer-social-icon">
+                <span>Follow us</span>
+                <a href="#"><i class="fab fa-facebook facebook-bg"></i></a>
+                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 mb-4">
+            <div class="footer-widget">
+              <div class="footer-widget-heading">
+                <h3>Useful Links</h3>
+              </div>
+              <ul class="list-unstyled m-0 p-0">
+                <li><a href="#" class="text-decoration-none">Home</a></li>
+                <li><a href="#" class="text-decoration-none">About</a></li>
+                <li><a href="#" class="text-decoration-none">Services</a></li>
+                <li><a href="#" class="text-decoration-none">Portfolio</a></li>
+                <li><a href="#" class="text-decoration-none">Contact</a></li>
+                <li><a href="#" class="text-decoration-none">About Us</a></li>
+                <li><a href="#" class="text-decoration-none">Our Services</a></li>
+                <li><a href="#" class="text-decoration-none">Expert Team</a></li>
+                <li><a href="#" class="text-decoration-none">Contact Us</a></li>
+                <li><a href="#" class="text-decoration-none">Latest News</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 mb-5">
+            <div class="footer-widget">
+              <div class="footer-widget-heading">
+                <h3>Subscribe</h3>
+              </div>
+              <div class="footer-text mb-3">
+                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+              </div>
+              <div class="subscribe-form">
+                <form action="#">
+                  <input type="text" class="form-control" placeholder="Email Address">
+                  <button class="btn btn-primary"><i class="fab fa-telegram-plane"></i></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright-area bg-dark text-light py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+            <div class="copyright-text">
+              <p>Copyright &copy; 2018, All Right Reserved <a href="https://codepen.io/anupkumar92/"
+                  class="text-warning">Anup</a></p>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+            <div class="footer-menu">
+              <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy</a></li>
+                <li class="list-inline-item"><a href="#">Policy</a></li>
+                <li class="list-inline-item"><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
